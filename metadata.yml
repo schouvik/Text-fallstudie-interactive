@@ -1,0 +1,85 @@
+# yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/v1.0.0-alpha/schema.json
+schema-version: 1.0.0-alpha
+book-version: 1.0.0-beta.3
+title: Waves of the Spanish Flu – Case Study
+identifier: https://doi.org/10.5281/zenodo.14970672
+authors:
+- given-names: Daniil
+  family-names: Skorinkin
+  orcid: https://orcid.org/0000-0002-1845-9974
+  affiliation: Universität Potsdam
+- given-names: Henny
+  family-names: Sluyter-Gäthje
+  orcid: https://orcid.org/0000-0003-2969-3237
+  affiliation: Universität Potsdam
+- given-names: Peer
+  family-names: Trilcke
+  orcid: https://orcid.org/0000-0002-1421-4320
+  affiliation: Universität Potsdam
+contributors:
+- given-names: Hannes
+  family-names: Schnaitter
+  orcid: https://orcid.org/0000-0002-1602-6032
+  affiliation: Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft
+- given-names: Evgenia
+  family-names: Samoilova
+  orcid: https://orcid.org/0000-0003-3858-901X
+  affiliation: Universität Potsdam
+- given-names: Lamia
+  family-names: Islam
+  affiliation: Universität Potsdam
+table-of-contents: '- Präambel
+
+  - Fragestellung und Operationalisierung. Einführung in die Fallstudie
+
+  - Korpusaufbau. Auswählen, sammeln, dokumentieren
+
+  - OCR. Von Bild zu Text
+
+  - OCR-Nachbereitung. Manuell, automatisch, LLMs
+
+  - Korpusverarbeitung. Von Strings zu Token
+
+  - Korpusanalyse. Von Häufigkeiten zu Diagrammen
+
+  - Reflexion
+
+  - Epilog'
+description: Diese OER führt in die Erstellung von QUADRIGA-OERs ein, bietet Inhalte
+  für Nutzer:innen der OERs und dient gleichzeitig als Template für die Erstellung
+  eigener OERs auf Basis der QUADRIGA-Empfehlungen.
+discipline:
+- übergreifend
+research-object-type:
+- übergreifend
+chapters:
+- title: Präambel
+  url: https://example.com
+  description: a
+  learning-goal: a
+  duration: 15min
+  educational-level: Basis
+  learning-objectives:
+  - learning-objective: a
+    competency: nicht anwendbar
+    data-flow: nicht anwendbar
+    blooms-category: 1 Erinnern
+target-group:
+- Forschende (PostDoc)
+- Forschende (Projektleitung)
+- Promovierende
+- Hochschullehrende
+duration: 10h
+date-published: '2024-06-17'
+date-modified: '2025-06-20'
+context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch das
+  Datenkompetenzzentrum QUADRIGA erstellt.
+
+  Förderkennzeichen: 16DKZ2034'
+url: https://quadriga-dk.github.io/Text-Fallstudie-1/
+git: https://github.com/quadriga-dk/Text-Fallstudie-1
+license:
+  code: https://opensource.org/licenses/AGPL-3.0
+  content:
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+    name: CC BY-SA 4.0
