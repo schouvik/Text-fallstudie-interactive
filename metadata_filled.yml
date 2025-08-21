@@ -211,7 +211,7 @@ chapters:
       und die Ergebnisse reflektiert werden.
     competency: 10 Fachspezifische datenanalyse
     data-flow: 4 Analyse
-    blooms-category: 5 Evaluieren
+    blooms-category: 5 Bewerten
   - learning-objective: Die Darstellungsmethode Keywords in Context kann beschrieben,
       Wörter zur Anzeige ausgewählt und diese angezeigt werden.
     competency: 11 Visualisierung
@@ -232,7 +232,7 @@ chapters:
   - learning-objective: Die methodischen Limitationen einer Digital Humanities-Fallstudie
       können benannt werden.
     competency: 7 Interpretation
-    data-flow: 6 Nachnutzung
+    data-flow: nicht anwendbar
     blooms-category: 5 Bewerten
 target-group:
 - Promovierende
