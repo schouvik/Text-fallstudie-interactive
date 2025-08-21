@@ -54,16 +54,186 @@ research-object-type:
 - übergreifend
 chapters:
 - title: Präambel
-  url: https://example.com
-  description: a
-  learning-goal: a
-  duration: 15min
+  url: https://quadriga-dk.github.io/Text-Fallstudie-1/präambel/einführung.html
+  description: Beschreibung der Lernziele und technischer Voraussetzungen der Fallstudie.
+  learning-goal: Die Teilnehmenden verstehen die Lernziele und technischen Voraussetzungen
+    der Fallstudie.
+  duration: 5min
   educational-level: Basis
   learning-objectives:
-  - learning-objective: a
+  - learning-objective: Die Teilnehmenden kennen die Lernziele und technischen Voraussetzungen
+      der Fallstudie.
     competency: nicht anwendbar
     data-flow: nicht anwendbar
-    blooms-category: 1 Erinnern
+    blooms-category: 2 Verstehen
+- title: Fragestellung und Operationalisierung. Einführung in die Fallstudie
+  url: https://quadriga-dk.github.io/Text-Fallstudie-1/research_question/research-question_intro.html
+  description: Dieses Kapitel bildet den Auftakt der Fallstudie und dient der Klärung
+    des Erkenntnisinteresses, das die dann folgende Vorbereitung und Aufbereitung
+    des Forschungsgegenstands (Korpus) und schließlich die Analyse leitet.
+  learning-goal: Grundlagen korpusbasierter geisteswissenschaftlicher Forschung
+  duration: TODO
+  educational-level: TODO
+  learning-objectives:
+  - learning-objective: Die Entwicklung einer Digital Humanities-Fragestellung kann
+      am Beispiel der Medienwellen-Forschung zur Spanischen Grippe nachvollzogen und
+      erläutert werden.
+    competency: TODO
+    data-flow: TODO
+    blooms-category: TODO
+  - learning-objective: Der Operationalisierungsprozess kann am Beispiel der Spanischen
+      Grippe nachvollzogen und auf andere Forschungsfragen übertragen werden.
+    competency: TODO
+    data-flow: TODO
+    blooms-category: TODO
+- title: Korpusaufbau. Auswählen, sammeln, dokumentieren
+  url: https://quadriga-dk.github.io/Text-Fallstudie-1/corpus_collection/corpus-collection_intro.html
+  description: Der Forschungsgegenstand wird in Form eines Korpus aufbereitet.
+  learning-goal: Ansätze des Korpusaufbaus und Erstellung basaler Metadaten
+  duration: TODO
+  educational-level: TODO
+  learning-objectives:
+  - learning-objective: Korpora können als geisteswissenschaftliche Forschungsobjekte
+      definiert und deren wesentliche Merkmale beschrieben werden.
+    competency: TODO
+    data-flow: TODO
+    blooms-category: TODO
+  - learning-objective: Die vier Hauptformate digitaler Texte (Bilddigitalisate, Plain
+      Text, XML/TEI, CSV) können anhand ihrer charakteristischen Eigenschaften unterschieden
+      und deren Vor- und Nachteile für spezifische Anwendungsfälle analysiert werden.
+    competency: TODO
+    data-flow: TODO
+    blooms-category: TODO
+  - learning-objective: Die grundlegenden Metadatenschemata (Dublin Core, TEI, MODS,
+      METS) und deren charakteristische Elemente für Korpora und Einzeldokumente können
+      beschrieben werden.
+    competency: TODO
+    data-flow: TODO
+    blooms-category: TODO
+  - learning-objective: Der schrittweise Prozess des praktischen Korpusaufbaus (Konzeptentwicklung,
+      Metadatenerstellung und Datensammlung) kann am Beispiel eines Zeitungskorpus
+      beschrieben werden.
+    competency: nicht anwendbar
+    data-flow: nicht anwendbar
+    blooms-category: TODO
+- title: OCR. Von Bild zu Text
+  url: https://quadriga-dk.github.io/Text-Fallstudie-1/ocr/ocr_intro.html
+  description: In diesem Kapitel lernen wir, wie man mit OCR Bilder in Text umwandelt.
+  learning-goal: OCR-basierte Korpuserstellung und Qualitätsbewertung
+  duration: TODO
+  educational-level: TODO
+  learning-objectives:
+  - learning-objective: Der Prozess der Optical Character Recognition (OCR) für die
+      Korpuserstellung kann beschrieben und Tools zur Durchführung der OCR aufgezählt
+      werden.
+    competency: TODO
+    data-flow: TODO
+    blooms-category: TODO
+  - learning-objective: Die notwendigen Schritte zur Verarbeitung ein- und mehrseitiger
+      PDFs zu Text können aufgezählt und die Unterschiede zwischen Ursprungs- und
+      Zielformat erklärt werden.
+    competency: TODO
+    data-flow: TODO
+    blooms-category: TODO
+  - learning-objective: Die grundlegenden Metriken zur OCR-Qualitätsevaluation (Präzision,
+      Recall, F1-Score) können erläutert und deren Bedeutung für die Bewertung von
+      OCR-Systemen beschrieben werden.
+    competency: nicht anwendbar
+    data-flow: nicht anwendbar
+    blooms-category: TODO
+  - learning-objective: Die Schritte zur Qualitätsmessung eines OCR-Outputs können
+      aufgezählt und die Qualitätsmaße interpretiert werden.
+    competency: nicht anwendbar
+    data-flow: nicht anwendbar
+    blooms-category: TODO
+- title: OCR-Nachbereitung. Manuell, automatisch, LLMs
+  url: https://quadriga-dk.github.io/Text-Fallstudie-1/ocr_post_correction/post-correcting_intro.html
+  description: In diesem Kapitel werden wir die Ergebnisse der OCR nachbearbeiten.
+  learning-goal: OCR-Nachbearbeitung und Qualitätsverbesserung
+  duration: TODO
+  educational-level: TODO
+  learning-objectives:
+  - learning-objective: Verschiedene Verfahren der OCR-Nachbearbeitung können beschrieben
+      und deren Einsatzzwecke unterschieden werden.
+    competency: TODO
+    data-flow: TODO
+    blooms-category: TODO
+  - learning-objective: Regelbasierte Ansätze zur OCR-Nachkorrektur können beschrieben
+      und deren Auswirkungen auf die OCR-Qualität anhand von Metriken erläutert werden.
+    competency: TODO
+    data-flow: TODO
+    blooms-category: TODO
+  - learning-objective: Die grundlegenden Herausforderungen beim Einsatz von Large
+      Language Models für die OCR-Nachbearbeitung können beschrieben werden.
+    competency: TODO
+    data-flow: TODO
+    blooms-category: TODO
+- title: Korpusverarbeitung. Von Strings zu Token
+  url: https://quadriga-dk.github.io/Text-Fallstudie-1/corpus_processing/corpus-processing_intro.html
+  description: Die im Korpus enthaltenen Textdateien werden mit linguistischen Informationen
+    angereichert.
+  learning-goal: Korpusverarbeitung mit Natural Language Processing
+  duration: TODO
+  educational-level: TODO
+  learning-objectives:
+  - learning-objective: Die Grundkonzepte des Natural Language Processing können erklärt
+      und die Funktionen von Tokenisierung und Lemmatisierung für die Textanalyse
+      beschrieben werden.
+    competency: TODO
+    data-flow: TODO
+    blooms-category: TODO
+  - learning-objective: Die notwendigen Schritte zur automatischen Annotation eines
+      Texts können aufgezählt und Vorteile der Tokenisierung gegenüber einfacheren
+      Methoden der Worttrennung genannt werden.
+    competency: TODO
+    data-flow: TODO
+    blooms-category: TODO
+- title: Korpusanalyse. Von Häufigkeiten zu Diagrammen
+  url: https://quadriga-dk.github.io/Text-Fallstudie-1/corpus_analysis/corpus-analysis_intro.html
+  description: Nachdem die Korpuserstellung und -anreicherung abgeschlossen ist, wird
+    in diesem Kapitel zur Forschungsfrage zurückgekehrt. Es soll die öffentliche Aufmerksamkeit
+    für die spanische Grippe im Zeitaum von 1918-1920 an Hand von Worthäufigkeiten
+    derjenigen Wörter gemessen werden, die direkt oder indirekt auf die spanische
+    Grippe verweisen.
+  learning-goal: Frequenzanalysen semantischer Felder
+  duration: TODO
+  educational-level: TODO
+  learning-objectives:
+  - learning-objective: Das Konzept des semantischen Feldes kann erklärt, der Unterschied
+      zwischen absoluten und relativen Häufigkeiten beschrieben und die Darstellungsmethoden
+      des Liniendiagramms und der Key Word in Context (KWIC)-Anzeige interpretiert
+      werden.
+    competency: TODO
+    data-flow: TODO
+    blooms-category: TODO
+  - learning-objective: Die notwendigen Schritte zur Frequenzanalyse eines semantischen
+      Felds können aufgezählt, Unterschiede in der Berechnung der Häufigkeiten benannt
+      und die Ergebnisse reflektiert werden.
+    competency: TODO
+    data-flow: TODO
+    blooms-category: TODO
+  - learning-objective: Die Darstellungsmethode Keywords in Context kann beschrieben,
+      Wörter zur Anzeige ausgewählt und diese angezeigt werden.
+    competency: TODO
+    data-flow: TODO
+    blooms-category: TODO
+- title: Reflexion
+  url: https://quadriga-dk.github.io/Text-Fallstudie-1/reflection/reflection_reflection.html
+  description: Auch wenn es uns gelungen ist, das Ziel der Fallstudie zu erreichen
+    und unsere eingangs formulierte Forschungsfrage nach den “Medienwellen” der Spanischen
+    Grippe insofern exemplarisch zu beantworten, als wir tatsächliche eine wellenartige
+    Entwicklung der quantitative verstandenen Aufmerksamkeit in ausgewählten Berliner
+    Tageszeitungen nachweisen konnten, gibt es mehrere Punkte, die abschließend kritisch
+    zu reflektieren sind.
+  learning-goal: Kritische Bewertung der Reichweite und Limitationen
+  duration: TODO
+  educational-level: TODO
+  learning-objectives:
+  - learning-objective: Die methodischen Limitationen einer Digital Humanities-Fallstudie
+      können benannt werden.
+    competency: TODO
+    data-flow: TODO
+    blooms-category: TODO
 target-group:
 - Forschende (PostDoc)
 - Forschende (Projektleitung)
