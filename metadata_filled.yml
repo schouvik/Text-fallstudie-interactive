@@ -79,12 +79,12 @@ chapters:
       am Beispiel der Medienwellen-Forschung zur Spanischen Grippe nachvollzogen und
       erläutert werden.
     competency: 1 Konzeptualisierung
-    data-flow: 1 Datenentstehung
+    data-flow: 1 Plannung
     blooms-category: 2 Verstehen
   - learning-objective: Der Operationalisierungsprozess kann am Beispiel der Spanischen
       Grippe nachvollzogen und auf andere Forschungsfragen übertragen werden.
     competency: 2 Formalisierung
-    data-flow: 1 Datenentstehung
+    data-flow: 2 Erhebung
     blooms-category: 3 Anwenden
 - title: Korpusaufbau. Auswählen, sammeln, dokumentieren
   url: https://quadriga-dk.github.io/Text-Fallstudie-1/corpus_collection/corpus-collection_intro.html
@@ -96,19 +96,19 @@ chapters:
   - learning-objective: Korpora können als geisteswissenschaftliche Forschungsobjekte
       definiert und deren wesentliche Merkmale beschrieben werden.
     competency: 1 Konzeptualisierung
-    data-flow: 2 Datensammlung
+    data-flow: 2 Erhebung
     blooms-category: 2 Verstehen
   - learning-objective: Die vier Hauptformate digitaler Texte (Bilddigitalisate, Plain
       Text, XML/TEI, CSV) können anhand ihrer charakteristischen Eigenschaften unterschieden
       und deren Vor- und Nachteile für spezifische Anwendungsfälle analysiert werden.
     competency: 3 Datenmodellierung
-    data-flow: 3 Datentransformation
+    data-flow: 3 Anreicherung
     blooms-category: 4 Analysieren
   - learning-objective: Die grundlegenden Metadatenschemata (Dublin Core, TEI, MODS,
       METS) und deren charakteristische Elemente für Korpora und Einzeldokumente können
       beschrieben werden.
     competency: 3 Datenmodellierung
-    data-flow: 2 Datensammlung
+    data-flow: 2 Erhebung
     blooms-category: 2 Verstehen
   - learning-objective: Der schrittweise Prozess des praktischen Korpusaufbaus (Konzeptentwicklung,
       Metadatenerstellung und Datensammlung) kann am Beispiel eines Zeitungskorpus
@@ -127,13 +127,13 @@ chapters:
       Korpuserstellung kann beschrieben und Tools zur Durchführung der OCR aufgezählt
       werden.
     competency: 4 Automatisierung
-    data-flow: 3 Datentransformation
+    data-flow: 3 Anreicherung
     blooms-category: 2 Verstehen
   - learning-objective: Die notwendigen Schritte zur Verarbeitung ein- und mehrseitiger
       PDFs zu Text können aufgezählt und die Unterschiede zwischen Ursprungs- und
       Zielformat erklärt werden.
     competency: 4 Automatisierung
-    data-flow: 3 Datentransformation
+    data-flow: 3 Anreicherung
     blooms-category: 2 Verstehen
   - learning-objective: Die grundlegenden Metriken zur OCR-Qualitätsevaluation (Präzision,
       Recall, F1-Score) können erläutert und deren Bedeutung für die Bewertung von
@@ -144,7 +144,7 @@ chapters:
   - learning-objective: Die Schritte zur Qualitätsmessung eines OCR-Outputs können
       aufgezählt und die Qualitätsmaße interpretiert werden.
     competency: nicht anwendbar
-    data-flow: nicht anwendbar
+    data-flow: 3 Anreicherung
     blooms-category: 3 Anwenden
 - title: OCR-Nachbereitung. Manuell, automatisch, LLMs
   url: https://quadriga-dk.github.io/Text-Fallstudie-1/ocr_post_correction/post-correcting_intro.html
@@ -156,17 +156,17 @@ chapters:
   - learning-objective: Verschiedene Verfahren der OCR-Nachbearbeitung können beschrieben
       und deren Einsatzzwecke unterschieden werden.
     competency: 4 Automatisierung
-    data-flow: 3 Datentransformation
+    data-flow: 3 Anreicherung
     blooms-category: 2 Verstehen
   - learning-objective: Regelbasierte Ansätze zur OCR-Nachkorrektur können beschrieben
       und deren Auswirkungen auf die OCR-Qualität anhand von Metriken erläutert werden.
     competency: 4 Automatisierung
-    data-flow: 3 Datentransformation
+    data-flow: 3 Anreicherung
     blooms-category: 4 Analysieren
   - learning-objective: Die grundlegenden Herausforderungen beim Einsatz von Large
       Language Models für die OCR-Nachbearbeitung können beschrieben werden.
     competency: 4 Automatisierung
-    data-flow: 3 Datentransformation
+    data-flow: 3 Anreicherung
     blooms-category: 2 Verstehen
 - title: Korpusverarbeitung. Von Strings zu Token
   url: https://quadriga-dk.github.io/Text-Fallstudie-1/corpus_processing/corpus-processing_intro.html
@@ -180,13 +180,13 @@ chapters:
       und die Funktionen von Tokenisierung und Lemmatisierung für die Textanalyse
       beschrieben werden.
     competency: 4 Automatisierung
-    data-flow: 3 Datentransformation
+    data-flow: 3 Anreicherung
     blooms-category: 2 Verstehen
   - learning-objective: Die notwendigen Schritte zur automatischen Annotation eines
       Texts können aufgezählt und Vorteile der Tokenisierung gegenüber einfacheren
       Methoden der Worttrennung genannt werden.
     competency: 4 Automatisierung
-    data-flow: 3 Datentransformation
+    data-flow: 3 Anreicherung
     blooms-category: 3 Anwenden
 - title: Korpusanalyse. Von Häufigkeiten zu Diagrammen
   url: https://quadriga-dk.github.io/Text-Fallstudie-1/corpus_analysis/corpus-analysis_intro.html
@@ -203,19 +203,19 @@ chapters:
       zwischen absoluten und relativen Häufigkeiten beschrieben und die Darstellungsmethoden
       des Liniendiagramms und der Key Word in Context (KWIC)-Anzeige interpretiert
       werden.
-    competency: 5 Statistik
-    data-flow: 4 Datenanalyse
+    competency: 10 Fachspezifische datenanalyse
+    data-flow: 4 Analyse
     blooms-category: 2 Verstehen
   - learning-objective: Die notwendigen Schritte zur Frequenzanalyse eines semantischen
       Felds können aufgezählt, Unterschiede in der Berechnung der Häufigkeiten benannt
       und die Ergebnisse reflektiert werden.
-    competency: 5 Statistik
-    data-flow: 4 Datenanalyse
+    competency: 10 Fachspezifische datenanalyse
+    data-flow: 4 Analyse
     blooms-category: 5 Evaluieren
   - learning-objective: Die Darstellungsmethode Keywords in Context kann beschrieben,
       Wörter zur Anzeige ausgewählt und diese angezeigt werden.
-    competency: 6 Visualisierung
-    data-flow: 5 Datenanzeige
+    competency: 11 Visualisierung
+    data-flow: 5 Visualisierung
     blooms-category: 3 Anwenden
 - title: Reflexion
   url: https://quadriga-dk.github.io/Text-Fallstudie-1/reflection/reflection_reflection.html
@@ -227,21 +227,20 @@ chapters:
     zu reflektieren sind.
   learning-goal: Kritische Bewertung der Reichweite und Limitationen
   duration: 30min
-  educational-level: Basis
+  educational-level: Fortgeschritten
   learning-objectives:
   - learning-objective: Die methodischen Limitationen einer Digital Humanities-Fallstudie
       können benannt werden.
-    competency: 7 Reflexion
-    data-flow: 6 Datennachnutzung
-    blooms-category: 5 Evaluieren
+    competency: 7 Interpretation
+    data-flow: 6 Nachnutzung
+    blooms-category: 5 Bewerten
 target-group:
-- Forschende (PostDoc)
-- Forschende (Projektleitung)
 - Promovierende
+- Forschende (PostDoc)
 - Hochschullehrende
-duration: 10h
+duration: 12h
 date-published: '2024-06-17'
-date-modified: '2025-06-20'
+date-modified: '2025-08-21'
 context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch das
   Datenkompetenzzentrum QUADRIGA erstellt.
 
