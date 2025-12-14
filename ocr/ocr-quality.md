@@ -27,9 +27,9 @@ Diese Metriken sind entscheidend für die Bewertung von OCR-Systemen, insbesonde
 
 ### Understanding Precision, Recall & F1 Intuitively
 
-The interactive visualization below serves as an operational demo of the introduced metrics of Precision, Recall, and F1-score at the character level within a controlled, simulated OCR setting. Rather than only considering aggregated metric values, the visualization makes explicit how individual recognition errors (substitutions, deletions, and insertions) directly affect Precision, Recall, and F1.
+The interactive visualization below serves as an operational demo of the introduced metrics of Precision, Recall, and F1-score at the character level within a controlled, simulated OCR setting. Rather than only considering aggregated metric values, the visualization shows how individual recognition errors (substitutions, deletions, and insertions) directly affect Precision, Recall, and F1.
 
-The confusion matrix represents the distribution of correctly recognized characters (true positives), incorrectly recognized characters (false positives), and missed characters (false negatives). Based on this distribution, the corresponding evaluation metrics are computed dynamically.
+The confusion matrix represents the distribution of correctly recognized characters (true positives), incorrectly recognized characters (false positives), and missed characters (false negatives). Based on this distribution, the corresponding evaluation metrics are calculated dynamically.
 
 
 
@@ -44,7 +44,7 @@ The confusion matrix represents the distribution of correctly recognized charact
 
   <!-- Slider -->
   <div style="margin-top:15px;">
-    <p> At low recognition accuracy, a larger number of characters is typically missed, leading to low recall, while precision may still remain relatively high         if only few incorrect characters are inserted. As the recognition accuracy increases, recall generally improves, and the operating point in the                 Precision–Recall diagram shifts accordingly.</p>
+    <p> At low recognition accuracy, a larger number of characters is typically missed leading to low recall, while precision may still remain relatively high         if only few incorrect characters are inserted. As the recognition accuracy increases, recall generally improves and the operating point in the                 Precision–Recall diagram changes accordingly.</p>
     <label>Simulated OCR accuracy:</label>
     <input id="toySlider" type="range" min="0" max="100" value="80" 
            style="width:250px; margin-left:10px;">
@@ -234,16 +234,13 @@ function drawPRCurve(p, r){
   for(let i = 0; i <= 5; i++){
     const val = (i / 5).toFixed(1);
 
-    // X labels
     const x = left + i * (width / 5);
     ctx.fillText(val, x - 6, bottom + 18);
 
-    // Y labels
     const y = bottom - i * (height / 5);
     ctx.fillText(val, left - 40, y + 4);
   }
 
-  // ---- AXIS TITLES ----
   ctx.fillText("Recall →", left + width / 2 - 20, bottom + 35);
 
   ctx.save();
@@ -252,7 +249,6 @@ function drawPRCurve(p, r){
   ctx.fillText("Precision →", 0, 0);
   ctx.restore();
 
-  // ---- REFERENCE DIAGONAL ----
   ctx.strokeStyle = "#888";
   ctx.setLineDash([6,6]);
   ctx.beginPath();
@@ -261,7 +257,6 @@ function drawPRCurve(p, r){
   ctx.stroke();
   ctx.setLineDash([]);
 
-  // ---- F1 ISO-LINES ----
   const f1Levels = [0.3, 0.5, 0.7, 0.9];
   ctx.strokeStyle = "#666";
   ctx.setLineDash([4,6]);
@@ -272,7 +267,7 @@ function drawPRCurve(p, r){
     let started = false;
 
     for(let r = 0.01; r <= 1; r += 0.01){
-      const p = (F1 * r) / (2*r - F1);  // rearranged F1 formula
+      const p = (F1 * r) / (2*r - F1); 
       if(p > 0 && p <= 1){
         const x = left + r * width;
         const y = bottom - p * height;
@@ -292,7 +287,7 @@ function drawPRCurve(p, r){
   ctx.setLineDash([]);
 
 
-  // ---- ✅ DOT POSITION (SCALED PROPERLY) ----
+  // ---- DOT POSITION ----
   const x = left + r * width;
   const y = bottom - p * height;
 
@@ -301,7 +296,6 @@ function drawPRCurve(p, r){
   ctx.arc(x, y, 7, 0, Math.PI * 2);
   ctx.fill();
 
-  // ---- TOOLTIP STORAGE ----
   window.prDot = {x, y, p, r};
 }
 
